@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="disable">
+        <div class="main1">
+       <div>Guess The random number between 1-100</div>
+       <div class="img-con"><img src="https://play-lh.googleusercontent.com/q5lSxwHjIThHOMU3V7k28vSunN9qBSX-XY53tBtEJON3vdBvByBLC46iyLwzvM8cImxs" alt="image"></div>
+       <div class="btn-section">
+        <p class='text'>Select The Difficulty</p>
+        <button id="btn1">Easy:10 Attempts</button>
+        <button id="btn2">Hard:5 Attempts</button>
+       </div>
+    </div>
+    </div>
+    <div class="game" id="game">
+        <div class="game-sec">
+        <div id="title">Your Guess</div>
+        <div><input id="input" class="value-enter" type="text" placeholder="Enter Your Guess" ></div>
+        <div class="div-parent">
+            <div class="div1"><p>Number of Chance Left</p> <span id="render1">
+
+            </span></div>
+            <div class="div2"><p>Number of previous guesses</p>    <span id="render2"></span></div>
+            <div><button type="button" onclick="playGame()" id="play-btn">Play Again</button></div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="file.js"></script>
+</body>
+</html>

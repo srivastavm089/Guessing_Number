@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4A1676;
+
+}
+.main{
+    background-color: #4A1676;
+   
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+
+ 
+  
+}
+.main1{
+    background-color: white;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    gap: 2vh;
+    padding:  5vh 5vh 5vh 5vh;
+ 
+}
+.main1 > div{
+    background-color: white;
+    
+}
+img{
+    width: 20vh;
+}
+.btn-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.btn-section #btn1{
+    background-color: #613DC8;
+    color: white;
+    padding: 0.3em;
+    border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+.btn-section #btn2{
+    background-color: #2E0355;
+   color: white;
+   padding: 0.3em;
+   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.game{
+    display: none;
+    justify-content: center;
+     height: 45vh;
+     margin-top: 10vh;
+}
+.game-sec{
+    background-color: white;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    width: 50vh;
+
+}
+.value-enter{
+height: 4vh;
+padding-left: 2vh;
+text-align: center;
+outline: none;
+
+}
+.div-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+.div1,.div2{
+    display: flex;
+    justify-content: space-between;
+  
+    gap: 15vh;
+ 
+}
+#render2{
+    color:green;
+}
+#render1{
+    color:red;
+}
+#play-btn{
+   display: none;
+   padding: 10px;
+   background-color: darkblue;
+   color: white;
+
+}
+
