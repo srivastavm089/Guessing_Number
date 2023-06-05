@@ -39,14 +39,7 @@ btn1.addEventListener("click", () => {
     }
 
     document.getElementById("render1").innerText = chance;
-    let res = "";
-    if (arr.length > 1) {
-      arr.map((item) => {
-        res = res + "," + item;
-      });
-    } else if (arr.length === 1) {
-      res = arr[0];
-    }
+  
     if (arr.length === 10) {
       inp.setAttribute("disabled", true);
       document.getElementById("title").innerHTML = "You Loose &#128542";
@@ -54,7 +47,7 @@ btn1.addEventListener("click", () => {
 
       loose.play();
     }
-    document.getElementById("render2").innerText = res;
+    document.getElementById("render2").innerText = arr;
   });
 });
 btn2.addEventListener("click", () => {
@@ -109,3 +102,4 @@ btn2.addEventListener("click", () => {
 function playGame() {
   location.reload();
 }
+
